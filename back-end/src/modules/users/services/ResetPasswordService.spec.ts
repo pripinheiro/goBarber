@@ -8,7 +8,7 @@ let fakeUsersRepository: FakeUsersRepository;
 let fakeUserTokensRepository: FakeUserTokensRepository;
 let resetPassword: ResetPasswordService;
 
-describe('SendForgotPasswordEmail', () => {
+describe('ResetPasswordService', () => {
   beforeEach(() => {
     fakeUsersRepository = new FakeUsersRepository();
     fakeUserTokensRepository = new FakeUserTokensRepository();
